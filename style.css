@@ -1,0 +1,19 @@
+html,body{
+    width: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 500px;
+    height: 400px;
+    background-color: red;
+}
+.box2{
+    width: 50vw;
+    height: 50vh;
+    background-color: yellow;
+}
+
+h1{
+    font-size: 7vw;
+}
