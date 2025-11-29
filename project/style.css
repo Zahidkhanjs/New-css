@@ -15,8 +15,8 @@
 .nav{
     height: 100px;
     width: 100%;
-    /* background-color: red; */
-    display: flex;
+    background-color: red;
+    display:flex ;
     align-items: center;
     justify-content: space-between;
     border-bottom: 2px solid black;
@@ -78,7 +78,7 @@
 
 
 
-
+/* 
 
 @media (max-width:600px) {
     .nav{
@@ -100,5 +100,5 @@
         font-size: 5vw;
     }
 
-    
+     */
 }

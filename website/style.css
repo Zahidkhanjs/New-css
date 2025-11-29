@@ -1,0 +1,110 @@
+html,body{
+    width: 100%;
+    height: 100%;  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+*{
+    margin: 0;
+
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+}
+
+
+.nav{
+    width: 100%;
+    height: 70px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.178);
+     
+}
+.nav-part{
+    display: flex;
+    gap: 4vw;
+    margin: 0 7vw;
+    font-size: 1.6vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.hed{
+    width: 100%;
+    height: calc(100% - 100px);
+    /* background-color: red; */
+    display: flex;
+    /* position: relative;  */
+}
+.btn button{
+    padding: 15px;
+    
+}
+
+.home{
+    width: 45%;
+    height: 20%;
+    /* background-color: #0493e6; */
+    padding: 4vw 3vw;
+    
+}
+
+
+.nav-part :hover{
+    text-decoration: underline;
+    height: 20px;
+
+}
+i{
+    padding: 5vw;
+}
+.home h1{
+    font-size: 3.3vw;
+    line-height: 4vw;
+    width: 80%;
+    padding-left: 3vw;
+}
+.home span{
+    font-size: 4vw;
+    color: #FF725E;
+}
+.home p {
+    font-size: 1.3vw;
+    width: 70%;
+    margin-top: 2.5vw;
+    margin-bottom: 3vw;
+    padding-left: 2vw;
+}
+button{
+    font-size: 1.5vw;
+    padding: 1.2vw 1.2vw;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-left: 3vw;
+   color: white;
+   background-color: #FF725E;
+}
+
+.about{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue */
+}
+
+.nav h2{
+    font-size: 2.5vw;
+    margin: 0 4vw;
+    font-weight: 700;    
+}
+.about img{
+    width: 100%;
+    height: 100%;
+}
